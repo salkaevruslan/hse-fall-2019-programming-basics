@@ -102,4 +102,9 @@ $ git diff
 $ git config --global core.editor "vim"
 ``` 
 
+* Перезапись последнего коммита (нужно использовать с умом!):
+
+```
+$ git commit --amend -m "New commit message"
+```
 
