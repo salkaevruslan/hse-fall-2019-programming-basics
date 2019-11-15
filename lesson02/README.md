@@ -7,6 +7,8 @@
 
 [Сайтик с документацией и tutorials](https://git-scm.com/docs/gittutorial)
 
+[How to undo](https://support.beanstalkapp.com/article/1004-how-do-i-undo-things-in-git)
+
 * То, что вам точно потребуется сделать:
 
 ```
