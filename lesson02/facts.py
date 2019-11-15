@@ -2,14 +2,13 @@
 import collections
 import sys
 
-
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='example', first_name='Name', last_name='Surname',
-           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='salkaevruslan', first_name='Ruslan', last_name='Salkaev',
+           facts=['Fact1.', 'Fact2.', 'Fact3.']),
 ]
 
-answers = {}
+answers = {'salkaevruslan',1}
 
 
 def format_person_info(person):
@@ -72,5 +71,6 @@ if __name__ == '__main__':
         print('> ', end='', flush=True)
         try:
             run_cmd(sys.stdin.readline().strip())
-        except Exception: # This is a VERY bad style. 
+        except Exception:  # This is a VERY bad style.
             continue
+#qwertyuiop[oiuytrewertyuiodfggfidjpofdkfpokopwekfovkjefkovwjkofvweojvio
