@@ -7,6 +7,15 @@
 
 [Сайтик с документацией и tutorials](https://git-scm.com/docs/gittutorial)
 
+* То, что вам точно потребуется сделать:
+
+```
+$ git config --global user.name "Ваше имя"
+$ git config --global user.email "Ваше имя"
+```
+
+*
+
 ## Выполнение задания 
 
 1. Сделайте форк этого репозитория. В дальнейшем вы будете работать с ним.
@@ -69,5 +78,28 @@
   $ git fetch upstream
   ```
 5. Дальше работать с репозиторием как и в шагах 3-8 из инструкции выше.
+
+
+## Фичи
+
+* Красивый вывод логов 
+```
+$ git log --graph --branches --tags --all --pretty=oneline --decorate --abbrev-commit --reflog
+```
+
+* Добавить alias
+```
+$ git config --global alias.mylog 'git log --graph --branches --tags --all --pretty=oneline --decorate --abbrev-commit --reflog'
+```
+
+* Читаем изменения
+```
+$ git diff
+```
+
+* Можно настроить гит, чтобы он пользовался вашим любимым редактором. Например:
+```
+$ git config --global core.editor "vim"
+``` 
 
 
