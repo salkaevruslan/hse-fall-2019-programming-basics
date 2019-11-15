@@ -89,7 +89,7 @@ $ git log --graph --branches --tags --all --pretty=oneline --decorate --abbrev-c
 
 * Добавить alias
 ```
-$ git config --global alias.mylog 'git log --graph --branches --tags --all --pretty=oneline --decorate --abbrev-commit --reflog'
+$ git config --global alias.mylog 'log --graph --branches --tags --all --pretty=oneline --decorate --abbrev-commit --reflog'
 ```
 
 * Читаем изменения
