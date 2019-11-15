@@ -73,4 +73,4 @@ if __name__ == '__main__':
             run_cmd(sys.stdin.readline().strip())
         except Exception:  # This is a VERY bad style.
             continue
-#qwertyuiop[oiuytrewertyuiodfggfidjpofdkfpokopwekfovkjefkovwjkofvweojviowjeiovjiorjijroifwiojviowrjfiojrjiojfijriiiiiiiiiif
+#qwertyuiop[oiuytrewertyuiodfggfidjpofdkfpokopwekfovkjefkovwjkofvweojvio
